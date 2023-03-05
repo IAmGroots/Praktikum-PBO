@@ -19,7 +19,7 @@ public class App {
       add(new Produk("Kalkulator", 20000, 20));
       add(new Produk("Pensil", 5000, 10));
       add(new Produk("Stabilo", 10000, 15));
-      add(new Produk("Selotip", 15000, 30));
+      add(new Produk("Buku Tulis", 15000, 30));
     };
   };
 
