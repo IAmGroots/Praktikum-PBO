@@ -2,10 +2,6 @@ Nama : Muhammad Hadiseptian Nursukamto
 NIM  : 2109106058
 Posttest 1 - PBO
 
-Akses Login - Admin
-username => admin
-password => admin
+Akses Login - Admin \nusername => admin \npassword => admin
 
-Akses Login - Pembeli
-username => asep
-password => 123
+Akses Login - Pembeli \nusername => asep \npassword => 123
