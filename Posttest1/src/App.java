@@ -33,8 +33,6 @@ public class App {
 	}
 
 	static void menuPembeli(Pembeli pembeli) throws IOException {
-		// Pembeli pembeli = new Pembeli(name, pass, role);
-		// Pembeli pembeli = new Pembeli();
 		boolean loop = true;
 		while (loop) {
 			try {
@@ -97,7 +95,6 @@ public class App {
 	}
 
 	static void menuAdmin(Admin admin) throws IOException {
-		// Admin admin = new Admin(name, pass, role);
 		boolean loop = true;
 		while (loop){
 			try {
