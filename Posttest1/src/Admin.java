@@ -65,6 +65,17 @@ public class Admin extends App {
       int stockProduk = Integer.parseInt(br.readLine());
       System.out.println("|=========================|");
 
+      for (Produk data : listProduk){
+        if (data.getNama().equals(namaProduk)){
+          System.out.println("");
+          System.out.println("Produk sudah Tersedia");
+          System.out.println("");
+          System.out.print("Silahkan tekan Enter untuk melanjutkan...");
+          br.readLine();
+          return;
+        }
+      }
+
       Produk produk = new Produk(namaProduk, hargaProduk, stockProduk);
       listProduk.add(produk);
 
