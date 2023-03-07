@@ -277,10 +277,11 @@ public class Pembeli extends App {
         br.readLine();
       } else {
         System.out.println("");
-        System.out.print("Jawaban tidak Valid");
+        System.out.println(RED + "Jawaban tidak Valid" + NORMAL);
         System.out.println("");
         System.out.print("Silahkan tekan Enter untuk melanjutkan...");
         br.readLine();
+        hapusProduk();
       }
 
     } catch (NumberFormatException nfe) {
